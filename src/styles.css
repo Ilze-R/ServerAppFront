@@ -26,6 +26,18 @@ body {
   padding: 1.57rem;
 }
 
+/* .option-bar {
+  display: flex;
+  align-items: center;
+  margin-left: 40em;
+  gap: 3px;
+}
+
+.btn {
+  width: 150px;
+  height: 45px;
+} */
+
 .note-has-grid .nav-link {
   padding: 0.5rem;
 }

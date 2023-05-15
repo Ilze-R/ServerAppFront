@@ -1,4 +1,4 @@
-import { OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, OnInit } from '@angular/core';
 import { Component } from '@angular/core';
 import {
   BehaviorSubject,
@@ -21,6 +21,7 @@ import { NotificationService } from './service/notification.service';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent implements OnInit {
   title = 'serverApp-front';
